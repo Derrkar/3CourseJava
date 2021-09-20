@@ -9,7 +9,6 @@ public class Variant4Test {
 
     public final float price = 46.73f;
     public int A, D;
-    public int M, N;
 
     ////////////////////////////////////////////////
 
@@ -161,13 +160,25 @@ public class Variant4Test {
     @DataProvider
     public Object[][] matrixProvider() {
         int[] input = {7, 2, 43, 23, -41, 231, -2};
+        int[] input2 = {1, 13, 83, 14, -1, 31, 98};
+        int[] input3 = {-756,231, 2, -23, 4141, 1231, -42};
+
         int[][] expected1 = {{7, 2, 43, 23, -41, 231, -2},
                 {7, 2, 43, 23, -41, 231, -2},
                 {7, 2, 43, 23, -41, 231, -2},
                 {7, 2, 43, 23, -41, 231, -2},
                 {7, 2, 43, 23, -41, 231, -2}};
-
-        return new Object[][]{{input, 7, 5, expected1}, {input, 7, 5, expected1}};
+        int[][] expected2 = {{1, 13, 83, 14, -1, 31, 98},
+                {1, 13, 83, 14, -1, 31, 98},
+                {1, 13, 83, 14, -1, 31, 98},
+                {1, 13, 83, 14, -1, 31, 98},
+                {1, 13, 83, 14, -1, 31, 98}};
+        int[][] expected3 = {{-756,231, 2, -23, 4141, 1231, -42},
+                {-756,231, 2, -23, 4141, 1231, -42},
+                {-756,231, 2, -23, 4141, 1231, -42},
+                {-756,231, 2, -23, 4141, 1231, -42},
+                {-756,231, 2, -23, 4141, 1231, -42}};
+        return new Object[][]{{input, 7, 5, expected1}, {input2, 7, 5, expected2}, {input3, 7, 5, expected3}};
     }
 
         @Test(expectedExceptions = AssertionError.class, dataProvider = "negativeSizeOfTwoDimensionArrowWhileProvider")

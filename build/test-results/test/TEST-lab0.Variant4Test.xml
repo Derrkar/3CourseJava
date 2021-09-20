@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="lab0.Variant4Test" tests="42" skipped="0" failures="0" errors="0" timestamp="2021-09-20T09:08:36" hostname="DESKTOP-SQ084ES" time="0.074">
+<testsuite name="lab0.Variant4Test" tests="43" skipped="0" failures="0" errors="0" timestamp="2021-09-20T12:14:43" hostname="DESKTOP-SQ084ES" time="0.094">
   <properties/>
-  <testcase name="arrayTest[0](2, 3, 5, [I@17e4f8c1)" classname="lab0.Variant4Test" time="0.01"/>
-  <testcase name="arrayTest[1](3, 2, 7, [I@625d67af)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="arrayTest[2](5, 4, 6, [I@5a501da)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="arrayTest[3](-1, -2, 8, [I@1e619b43)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="arrayTest[0](2, 3, 5, [I@75215d47)" classname="lab0.Variant4Test" time="0.008"/>
+  <testcase name="arrayTest[1](3, 2, 7, [I@61fe6824)" classname="lab0.Variant4Test" time="0.008"/>
+  <testcase name="arrayTest[2](5, 4, 6, [I@21a165b6)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="arrayTest[3](-1, -2, 8, [I@1788f602)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="booleanTest[0](5, 1, true)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="booleanTest[1](0, -2, false)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="booleanTest[2](3, 4, false)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="forTest[0](2, 93.46)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="forTest[1](3, 140.19)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="forTest[1](3, 140.19)" classname="lab0.Variant4Test" time="0.008"/>
   <testcase name="forTest[2](7, 327.11002)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="ifTest[0](2, 3, 10, 3)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="ifTest[1](0, 0, 0, 0)" classname="lab0.Variant4Test" time="0.0"/>
@@ -17,27 +17,28 @@
   <testcase name="inputTest[0](7, 5, 1)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="inputTest[1](23, 11, 2)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="inputTest[2](50, 7, 7)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="minMaxTest[0]([F@72518775, -54)" classname="lab0.Variant4Test" time="0.008"/>
-  <testcase name="minMaxTest[1]([F@6bbb5997, -9)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="minMaxTest[2]([F@68b4e25d, -4.34)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="minMaxTest[0]([F@dfa734, -54)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="minMaxTest[1]([F@60e3e3a6, -9)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="minMaxTest[2]([F@16a0b5d3, -4.34)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeForTest" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeIntegerTest" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeSizeOfArrowWhileProvider[0](0, 0, -3)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeSizeOfArrowWhileProvider[1](0, 0, 0)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="negativeSizeOfArrowWhileProvider[2](0, 0, -7)" classname="lab0.Variant4Test" time="0.008"/>
-  <testcase name="negativeSizeOfArrowWhileProvider2[0]([I@7ddc6687, 0, -3)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="negativeSizeOfArrowWhileProvider2[1]([I@128e797f, -2, 0)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="negativeSizeOfArrowWhileProvider2[2]([I@1396eb2d, -3, -7)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="negativeSizeOfArrowWhileProvider[2](0, 0, -7)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="negativeSizeOfArrowWhileProvider2[0]([I@39c4c6a0, 0, -3)" classname="lab0.Variant4Test" time="0.002"/>
+  <testcase name="negativeSizeOfArrowWhileProvider2[1]([I@6c467096, -2, 0)" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="negativeSizeOfArrowWhileProvider2[2]([I@de04c48, -3, -7)" classname="lab0.Variant4Test" time="0.001"/>
   <testcase name="negativeWhileTest[0](-7)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeWhileTest[1](-2)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="negativeWhileTest[2](-3)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="switchLessTest" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="switchLessTest" classname="lab0.Variant4Test" time="0.008"/>
   <testcase name="switchOverTest" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="switchTest[0](3, 31)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="switchTest[1](2, 28)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="switchTest[2](6, 30)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="twoDimensionArrayTest[0]([I@1f76924e, 7, 5, [[I@39b947cd)" classname="lab0.Variant4Test" time="0.0"/>
-  <testcase name="twoDimensionArrayTest[1]([I@1f76924e, 7, 5, [[I@39b947cd)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="twoDimensionArrayTest[0]([I@2f09be2c, 7, 5, [[I@1f76924e)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="twoDimensionArrayTest[1]([I@6d4e493e, 7, 5, [[I@45b96749)" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="twoDimensionArrayTest[2]([I@4ee0603c, 7, 5, [[I@d7ea3ed)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="whileTest[0](3, true)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="whileTest[1](27, true)" classname="lab0.Variant4Test" time="0.0"/>
   <testcase name="whileTest[2](81, true)" classname="lab0.Variant4Test" time="0.0"/>
