@@ -82,11 +82,15 @@ public class Variant4 {
      */
     public float minMaxTask(float[] array) {
         float min = array[0];
+        int minIndex = 0;
         for (int i = 0; i < array.length - 1; i++) {
-            if (array[i + 1] < min) min = array[i + 1];
+            if (array[i + 1] < min) {
+                min = array[i + 1];
+                minIndex = i + 1;
+            }
         }
 
-        return min;
+        return minIndex;
     }
 
     /**

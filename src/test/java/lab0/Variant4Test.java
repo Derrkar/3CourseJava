@@ -120,8 +120,8 @@ public class Variant4Test {
 
     @DataProvider
     public Object[][] minMaxProvider() {
-        return new Object[][] { { new float[] {-34.12f, 54.27f, 8, -1, 6, -54}, -54}, { new float[] {-9, 27, 98, 56, -8}, -9},
-            { new float[] { 4, 3, 5, -4.34f, -4}, -4.34f} };
+        return new Object[][] { { new float[] {-34.12f, 54.27f, 8, -1, 6, -54}, 5}, { new float[] {-9, 27, 98, 56, -8}, 0},
+            { new float[] { 4, 3, 5, -4.34f, -4}, 3} };
     }
 
     //////////////////////////////////////////
